@@ -1,0 +1,91 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-image: url('../img/fondo.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.oculto {
+    display: none;
+}
+
+.textbox {
+    padding: 8px;
+    border: 1px #d2d0d0 solid;
+    border-radius: 3px;  
+    width: 50%;
+}
+
+.btn {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn.blue {
+    background: rgb(185, 12, 99);
+    color: #fff;
+}
+
+.box {
+    width: 70%;
+    margin: 100px auto;
+    text-align: center;
+    border: 1px solid rgb(185, 12, 99);
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.lblopc {
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#divrpta {
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+.correcto {
+    background: green;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 3px;
+}
+
+.incorrecto {
+    background: red;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 3px;
+}
+
+.separador {
+    margin-top: 40px;
+    border-top: 1px solid rgb(185, 12, 99);
+    padding-top: 20px;
+}
+
+#timer {
+    color:rgb(185, 12, 99);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 3px solid black;
+    width: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
